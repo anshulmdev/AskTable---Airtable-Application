@@ -30,7 +30,7 @@ export function Dialog({ message, type, onClose, onSubmit, onReset }) {
         </Button>
       </Box>
       <Box display="flex" justifyContent="space-between">
-        <Link href="mailto:support@einfach.in" target="_blank" flexGrow={1}>
+        <Link href="mailto:info@apilabz.com" target="_blank" flexGrow={1}>
           <Button variant="default" icon="envelope" style={{ width: '100%' }}>
             Email Us
           </Button>

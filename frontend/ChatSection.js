@@ -43,9 +43,17 @@ export function ChatSection({ setDialogMessage, setResponse, settingsSection }) 
           onClick={handleSubmit}
           disabled={loading}
           variant="primary"
-          icon="share"
+          icon="plus"
+          marginRight={2}
         >
-          {loading ? 'Submitting...' : 'Submit'}
+          {loading ? 'Submitting...' : 'Add Record'}
+        </Button>
+        <Button
+          onClick={() => window.open("https://apilabz.com/")}
+          variant="default"
+          icon="premium"
+        >
+          Add Credits
         </Button>
       </Box>
     </Box>

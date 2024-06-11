@@ -15,8 +15,8 @@ export function ResponseSection({ response }) {
         <Text size="small" textColor="light">
           Please note that we do not share certain data types like attachments or long text to focus on more useful and mathematical data for insights. We also do not store any information on our servers.
           For more credits: please reach out us at:
-          <Link href="mailto:support@einfach.in" target="_blank" flexGrow={1}>
-          support@einfach.in
+          <Link href="mailto:info@apilabz.com" target="_blank" flexGrow={1}>
+          info@apilabz.com
         </Link>
         </Text>
       </Box>
